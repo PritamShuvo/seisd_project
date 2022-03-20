@@ -1,0 +1,64 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-image: url(Images/welcome.jpg);
+  background-size: cover;
+}
+.box {
+  width: 800px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+  z-index: 2;
+}
+.logout {
+  color: rgb(91, 70, 50);
+  font-size: 30px;
+  font-weight: bold;
+}
+.box a {
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+  font-size: 30px;
+}
+h1 {
+  color: rgb(241, 121, 9);
+  font-weight: bolder;
+  font-size: 60px;
+}
+.Link {
+  border: 0;
+  background-color: rgb(172, 136, 96);
+  margin: 100px 25%;
+  text-align: center;
+  border: 2px solid #e6ece9;
+  padding: 14px 50px;
+  width: 2200px;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  line-height: 100px;
+}
+.Link:hover {
+  background: rgba(126, 68, 1, 0.911);
+  color: white;
+  border: 2px solid black;
+}
+.welcome {
+  color: rgba(126, 68, 1, 0.911);
+  font-weight: bolder;
+}

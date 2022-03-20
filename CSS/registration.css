@@ -1,0 +1,109 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(Images/Registration.jpg);
+  background-size: cover;
+}
+.Box {
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(255, 117, 4);
+}
+.Box h1 {
+  color: rgb(255, 117, 4);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+}
+.Box input[type="text"],
+.Box input[type="email"],
+.Box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(238, 237, 235);
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.Box input[type="text"]:focus,
+.Box input[type="email"]:focus,
+.Box input[type="password"]:focus {
+  width: 300px;
+  border-color: rgb(255, 117, 4);
+}
+.Box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(238, 237, 235);
+  padding: 14px 20px;
+  width: 150px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.Box input[type="submit"]:hover {
+  background: rgb(255, 117, 4);
+  color: white;
+  border: 2px solid black;
+}
+.Link {
+  text-decoration: none;
+  color: rgb(255, 117, 4);
+  font-weight: bolder;
+}
+.box {
+  width: 400px;
+  height: 150px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: black;
+  border: 2px solid rgb(221, 143, 56);
+  border-radius: 10px;
+  z-index: 2;
+}
+.reg {
+  color: rgb(221, 143, 56);
+  font-size: 20px;
+  font-weight: bold;
+}
+.box a {
+  text-decoration: none;
+  color: rgb(221, 143, 56);
+  font-weight: bold;
+}
+.welcome {
+  color: #3498db;
+  font-weight: bold;
+  font-size: 20px;
+}
